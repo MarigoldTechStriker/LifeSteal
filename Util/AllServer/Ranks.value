@@ -1,0 +1,55 @@
+import minecraft;
+
+function DefineRanks{
+  index(0){
+    const RankName = "default",
+    const ColorName = ChatColor.Dark_Gray,
+    const suffix,
+    const shardAmp = 0.0,
+    const op = 0
+  },
+  index(1){
+    const RankName = "plus",
+    const ColorName = ChatColor.Lime,
+    const suffix = "[+]",
+    const shardAmp = 0.5,
+    const op = 0
+  },
+  index(2){
+    const RankName = "ultimate",
+    const ColorName = ChatColor.Light_Purple,
+    const suffix = "[U]",
+    const shardAmp = 1.0,
+    const op = 0
+  },
+  index(3){
+    const RankName = "partner",
+    const ColorName = ChatColor.Light_Red,
+    const suffix = "[partner]",
+    const shardAmp = 1.0,
+    const op = 1
+  },
+  index(4){
+    const RankName = "helper",
+    const ColorName = ChatColor.Aqua,
+    const suffix = "[H]",
+    const shardAmp = 1.0,
+    const op = 1
+  },
+  index(5){
+    const RankName = "admin",
+    const ColorName = ChatColor.Light_Yellow,
+    const suffix = "[admin]",
+    const shardAmp = 1.0,
+    const op = 2
+  },
+  index(6){
+    const RankName = "owner",
+    const ColorName = ChatColor.Light_Yellow,
+    const suffix = "[owner]",
+    const shardAmp = 1.0,
+    const op = 3
+  };
+};
+
+  export function("DefineRank") as package("lifesteal.rankdefine");
